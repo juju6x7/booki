@@ -1,27 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* font-family: 'Raleway', sans-serif; */
 
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 0.9em;
 }
 
 .container {
   margin: 50px;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
 a {
   text-decoration: none;
   color: black;
-  padding-right: 4em;
+  padding: 20px;
   text-align: center;
 }
 
 a:hover,
 a:active,
-a:focus {
+a:focus 
+{
   color: #0065fc;
+  text-decoration: underline #0065fc;
+  text-decoration-thickness: 2px;
+  text-underline-offset: -4rem;
 }
+
+/* class="rectangle-hover"
+.rectangle-hover {
+  background: #0065fc;
+  position: absolute;
+  width: 162px;
+  height: 2px;
+  left: 1092px;
+  top: 0px;
+  display: none;
+} */
 
 h2 {
   font-size: 1.3em;
