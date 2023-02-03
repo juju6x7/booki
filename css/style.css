@@ -56,18 +56,37 @@ p {
   font-size: 0.95em;
 }
 
+section div {
+  margin-bottom: 40px;
+}
+
 form {
   margin: 20px 0;
+  display: flex;
 }
 
 .search-city {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* padding: 15px 16px; */
+  padding: 15px 16px;
   gap: 10px;
   font-size: 1.2em;
 }
+
+/* #city {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  font-size: 0.9em;
+  font-family: "Raleway";
+  font-weight: 700;
+  padding: 10px 70px;
+  position: absolute;
+  left: 0%;
+  margin-left: 50px;
+  z-index: 1;
+} */
 
 .marseille {
   background: #ffffff;
@@ -75,6 +94,12 @@ form {
   border-radius: 15px;
   font-size: 0.9em;
   font-family: "Raleway";
+  font-weight: 700;
+  padding: 11px 70px;
+  position: absolute;
+  left: 0%;
+  margin-left: 50px;
+  z-index: 1;
 }
 
 .btn-search {
@@ -82,10 +107,18 @@ form {
   background: #0065fc;
   border: 1px solid #0065fc;
   border-radius: 0px 15px 15px 0px;
-  padding: 10px 20px;
+  padding: 11px 0px 11px 15px;
   font-weight: 700;
   font-size: 0.9em;
   font-family: "Raleway";
+  z-index: 2;
+  position: absolute;
+  margin-left: 250px;
+}
+
+.fa-magnifying-glass {
+  color: white !important;
+  visibility: hidden;
 }
 
 label {
@@ -93,6 +126,10 @@ label {
   border: 1px solid #f2f2f2;
   border-radius: 15px 0px 0px 15px;
   padding: 10px 20px;
+  position: absolute;
+  left: 0%;
+  margin-left: 50px;
+  z-index: 3;
 }
 
 input {
@@ -161,7 +198,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
   .container {
     margin: 0;
   }
@@ -180,7 +216,7 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-  
+
   nav a {
     border-bottom: 3px solid #f2f2f2;
     width: 50%;
@@ -193,7 +229,32 @@ footer {
     padding: 20px;
   }
 
-  .content,
+  #search {
+    margin: 0 20px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .marseille {
+    padding: 11px 40px 11px 30px;
+  }
+
+  label {
+    margin: 0 20px;
+    padding: 10px 15px;
+  }
+
+  .btn-search {
+    padding: 11px 15px 11px 15px;
+    margin-left: 210px;
+  }
+
+  .fa-magnifying-glass {
+    visibility: visible;
+  }
+
   footer {
     display: none;
   }
