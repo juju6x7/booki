@@ -96,7 +96,7 @@ form {
   font-size: 0.9em;
   font-family: "Raleway";
   font-weight: 700;
-  padding: 11px 70px;
+  padding: 11px 40px 11px 30px;
   position: absolute;
   left: 0%;
   margin-left: 50px;
@@ -192,8 +192,6 @@ main {
 
 #accommodation {
   background-color: #f2f2f2;
-  height: 626px;
-  width: 880px;
   left: 0px;
   top: 0px;
   border-radius: 20px;
@@ -201,10 +199,77 @@ main {
   margin-right: 40px;
 }
 
+#accommodation a {
+text-decoration: none;
+color: black;
+}
+
+#accommodation a:hover {
+  color:#0065fc;
+  }
+
+#accommodation h2 {
+  padding-bottom: 20px;
+}
+
+#accommodation h3 {
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+#accommodation div {
+  margin-bottom: 0px;
+}
+
+.card-hebergements{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  width: 246px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.card-hebergements:hover {
+  background-color: #deebff;
+}
+
+.card-hebergements img{
+  border-radius: 20px 20px 0 0;
+  width: 100% -10px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.card-price {
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.stars {
+  font-size: 12px;
+  letter-spacing: -0.2em;
+}
+
+.grey-star {
+  color: #F2F2F2;
+}
+
 #popular {
   background-color: #f2f2f2;
-  height: 626px;
-  width: 420px;
   left: 0px;
   top: 0px;
   border-radius: 20px;
@@ -255,10 +320,6 @@ footer {
 
   .search {
     display: none;
-  }
-
-  .marseille {
-    padding: 11px 40px 11px 30px;
   }
 
   label {
