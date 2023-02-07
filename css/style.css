@@ -88,17 +88,24 @@ form {
   z-index: 1;
 } */
 
+label {
+  font-size: 18px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  padding: 14px 15px 14px 18px;
+  position: absolute;
+  z-index: 3;
+}
+
 .marseille {
   background: #ffffff;
   border: 1px solid #f2f2f2;
   border-radius: 15px;
-  font-size: 0.9em;
+  font-size: 18px;
   font-family: "Raleway";
   font-weight: 700;
-  padding: 11px 70px;
-  position: absolute;
-  /* left: 0%; */
-  /* margin-left: 50px; */
+  padding: 14px 66px;
   z-index: 1;
 }
 
@@ -107,29 +114,18 @@ form {
   background: #0065fc;
   border: 1px solid #0065fc;
   border-radius: 0px 15px 15px 0px;
-  padding: 11px 0px 11px 15px;
+  padding: 14px 0px 14px 15px;
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 18px;
   font-family: "Raleway";
   z-index: 2;
-  /* position: absolute; */
+  position: absolute;
   margin-left: 250px;
 }
 
 .fa-magnifying-glass {
   color: white !important;
   visibility: hidden;
-}
-
-label {
-  background: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px 0px 0px 15px;
-  padding: 10px 20px;
-  position: absolute;
-  /* left: 0%; */
-  /* margin-left: 50px; */
-  z-index: 3;
 }
 
 input {
