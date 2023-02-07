@@ -39,6 +39,10 @@ nav a:active {
   font-weight: 500;
 }
 
+h1 {
+  padding-bottom: 10px;
+}
+
 h2 {
   font-size: 1.3em;
   padding-bottom: 5px;
@@ -46,7 +50,6 @@ h2 {
 
 h3 {
   font-size: 1.2em;
-  /* padding-right: 10px; */
 }
 
 h4 {
@@ -54,11 +57,7 @@ h4 {
 }
 
 p {
-  font-size: 0.95em;
-}
-
-section div {
-  margin-bottom: 40px;
+  font-size: 1em;
 }
 
 form {
@@ -74,20 +73,6 @@ form {
   gap: 10px;
   font-size: 1.2em;
 }
-
-/* #city {
-  background: #ffffff;
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
-  font-size: 0.9em;
-  font-family: "Raleway";
-  font-weight: 700;
-  padding: 10px 70px;
-  position: absolute;
-  left: 0%;
-  margin-left: 50px;
-  z-index: 1;
-} */
 
 label {
   font-size: 18px;
@@ -136,7 +121,7 @@ input {
 }
 
 .filter-bar {
-  padding: 10px 0;
+  padding: 10px 0 50px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -162,28 +147,35 @@ input {
   color: black;
 }
 
-.infobar,
-.filters {
+.infobar {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.i {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 
 .fa-info {
-  font-size: 0.8em;
-  padding-left: 8px;
-  display: flex;
+  font-size: 0.7em;
+  padding-top: 0.4em;
+  padding-left: 0.3em;
 }
 
 .circle {
-  width: 24px;
-  height: 24px;
+  width: 1.5em;
+  height: 1.5em;
   border-radius: 50%;
   border: 1px solid #d9d9d9;
   margin-right: 0.5em;
 }
 
 main {
-  display: flex;
+  display: flex;  
 }
 
 #accommodation {
@@ -352,7 +344,7 @@ footer {
     padding: 20px;
   }
 
-  #search {
+  #search, .infobar, main {
     margin: 0 20px;
   }
 
@@ -383,6 +375,7 @@ footer {
 
   .filters {
     margin-top: 20px;
+    margin-right: 20px;
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
@@ -390,6 +383,11 @@ footer {
 
   .filter {
     margin: 0;
+  }
+
+  .infobar {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   footer {
