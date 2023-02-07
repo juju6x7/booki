@@ -361,12 +361,11 @@ footer {
   }
 
   .marseille {
-    padding: 11px 40px 11px 30px;
-    margin-left: 30px;
+    padding: 11px 40px 11px 60px;
   }
 
   label {
-    padding: 10px 15px;
+    padding: 11px 15px;
   }
 
   .btn-search {
