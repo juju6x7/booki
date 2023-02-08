@@ -185,6 +185,7 @@ main {
   border-radius: 20px;
   padding: 40px;
   margin-right: 40px;
+  width: 60%;
 }
 
 #accommodation a,  #popular a {
@@ -274,6 +275,7 @@ color: black;
   padding: 5px;
   margin-bottom: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 100%;
 }
 
 .card-popular img{
@@ -304,6 +306,7 @@ color: black;
   top: 0px;
   border-radius: 20px;
   padding: 40px;
+  width: 30%;
 }
 
 footer {
