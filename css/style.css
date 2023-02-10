@@ -202,7 +202,7 @@ text-decoration: none;
 color: black;
 }
 
-#accommodation a:hover, #popular a:hover {
+#accommodation a:hover, #popular a:hover, #activities a:hover {
   color:#0065fc;
 }
 
@@ -230,8 +230,9 @@ color: black;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.card-hebergements:hover, .card-popular:hover {
+.card-hebergements:hover, .card-popular:hover, .card-activity:hover {
   background-color: #deebff;
+  box-shadow: rgba(51, 54, 57, 0.33) 0px 8px 24px;
 }
 
 .card-hebergements img{
