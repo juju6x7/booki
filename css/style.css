@@ -131,7 +131,7 @@ input {
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   padding: 10px 15px;
-  margin: 0 20px;
+  margin: 0 18px;
 }
 
 .filter:hover {
@@ -388,11 +388,26 @@ footer a {
   padding: 7px 0;
 }
 
-.about, .our-accomodation, .assistance {
+.about, .our-accommodation, .assistance {
   display: flex;
   flex-direction: column;
   padding: 40px 70px;
   width: 25%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    margin: 50px 50px 0 50px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #accommodation {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
