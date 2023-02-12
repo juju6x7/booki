@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  margin: 50px;
+  margin: 50px 50px 0 50px;
 }
 
 header {
@@ -319,7 +319,7 @@ color: black;
 }
 
 #activities {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 #activities h2 {
