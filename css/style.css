@@ -57,17 +57,16 @@ p {
   font-size: 1em;
 }
 
-form {
-  margin: 20px 0;
-  display: flex;
-}
-
 .search-city {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  font-size: 1.2em;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
 }
 
 label {
@@ -80,8 +79,30 @@ label {
   z-index: 3;
 }
 
+input {
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  padding: 14px 0 13px 70px;
+  width: 250px;
+  font-size: 1.2em;
+}
+
+input[type=text] {
+  font-family: "Raleway";
+  font-weight: bold;
+  color: black;
+  outline: none;
+}
+
+::placeholder {
+  /* font-size: 1.3em; */
+  font-family: "Raleway";
+  font-weight: bold;
+  color: black;
+  margin-right: 50px;
+}
+
 .marseille {
-  background: #ffffff;
   border: 1px solid #f2f2f2;
   border-radius: 15px;
   font-size: 18px;
@@ -102,7 +123,7 @@ label {
   font-family: "Raleway";
   z-index: 2;
   position: absolute;
-  margin-left: 250px;
+  margin-left: 270px;
 }
 
 .fa-magnifying-glass {
@@ -110,11 +131,13 @@ label {
   visibility: hidden;
 }
 
-input {
+/* input {
   border: 1px;
   border-color: #f2f2f2;
   padding: 10px 0;
-}
+} */
+
+
 
 .filter-bar {
   padding: 10px 0 30px 0;
@@ -532,9 +555,7 @@ footer a:hover {
     display: none;
   }
 
-  .marseille {
-    padding: 11px 40px 11px 60px;
-  }
+
 
   label {
     padding: 11px 15px;
