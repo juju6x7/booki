@@ -7,6 +7,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  font-weight: 400;
   max-width: 1400px;
   margin: auto;
 }
@@ -95,14 +96,13 @@ input[type=text] {
 }
 
 ::placeholder {
-  /* font-size: 1.3em; */
   font-family: "Raleway";
   font-weight: bold;
   color: black;
   margin-right: 50px;
 }
 
-.marseille {
+/* .marseille {
   border: 1px solid #f2f2f2;
   border-radius: 15px;
   font-size: 18px;
@@ -110,7 +110,7 @@ input[type=text] {
   font-weight: 700;
   padding: 14px 66px;
   z-index: 1;
-}
+} */
 
 .btn-search {
   color: white;
