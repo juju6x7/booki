@@ -107,16 +107,6 @@ input[type=text] {
   margin-right: 50px;
 }
 
-/* .marseille {
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
-  font-size: 18px;
-  font-family: "Raleway";
-  font-weight: 700;
-  padding: 14px 66px;
-  z-index: 1;
-} */
-
 .btn-search {
   color: white;
   background: #0065fc;
@@ -280,7 +270,7 @@ article {
   padding: 5px 15px;
 }
 
-.article-title {
+h6 {
   font-weight: bold;
   font-size: 16px;
   padding-bottom: 5px;
@@ -343,11 +333,6 @@ article {
 
 .title-price p {
   padding-bottom: 7px;
-}
-
-.article-title-popular {
-  font-weight: bold;
-  font-size: 16px;
 }
 
 #activities {
@@ -476,8 +461,7 @@ footer a:hover {
     padding: 5px 15px;
   }
 
-  .article-title-popular {
-    font-weight: bold;
+ h6 {
     font-size: 14px;
   }
 
