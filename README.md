@@ -1,4 +1,5 @@
 # BOOKI 🏨
+![booki-responsive-devices](https://user-images.githubusercontent.com/98356784/223488480-df40bd88-8ceb-4a10-b94b-fee72f5ad9c7.jpg)
 
 ## About The Project
 
@@ -20,5 +21,9 @@
 <img src="https://user-images.githubusercontent.com/98356784/221153958-5c025093-5061-40ff-9752-e291731d0ab4.jpg">
 
 ## Demo
+
+![tablet-scroll](https://user-images.githubusercontent.com/98356784/223488484-b92a9bc0-6903-4cbd-b40d-2b3c257571f9.gif)
+
+## Website
 
 ▶️ https://jujudev7.github.io/booki/
