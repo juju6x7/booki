@@ -54,6 +54,11 @@ h4 {
   font-size: 1.1em;
 }
 
+h5 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
 p {
   font-size: 1em;
 }
@@ -154,6 +159,7 @@ input[type=text] {
   border-radius: 25px;
   padding: 10px 15px;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .filter:hover {
