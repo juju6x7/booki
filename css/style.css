@@ -93,7 +93,7 @@ input {
   font-size: 1.2em;
 }
 
-input[type=text] {
+input[type="text"] {
   font-family: "Raleway";
   font-weight: bold;
   color: black;
@@ -107,16 +107,6 @@ input[type=text] {
   margin-right: 50px;
 }
 
-/* .marseille {
-  border: 1px solid #f2f2f2;
-  border-radius: 15px;
-  font-size: 18px;
-  font-family: "Raleway";
-  font-weight: 700;
-  padding: 14px 66px;
-  z-index: 1;
-} */
-
 .btn-search {
   color: white;
   background: #0065fc;
@@ -128,7 +118,7 @@ input[type=text] {
   font-family: "Raleway";
   z-index: 2;
   position: absolute;
-  margin-left: 270px;
+  margin-left: 300px;
 }
 
 .fa-magnifying-glass {
@@ -218,7 +208,7 @@ main {
   flex-direction: column;
 }
 
-.article {
+article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -281,7 +271,7 @@ main {
   padding: 5px 15px;
 }
 
-.article-title {
+h6 {
   font-weight: bold;
   font-size: 16px;
   padding-bottom: 5px;
@@ -344,11 +334,6 @@ main {
 
 .title-price p {
   padding-bottom: 7px;
-}
-
-.article-title-popular {
-  font-weight: bold;
-  font-size: 16px;
 }
 
 #activities {
@@ -426,7 +411,7 @@ footer a {
 }
 
 footer a:hover {
-  color:#0065fc;
+  color: #0065fc;
 }
 
 .about,
@@ -439,10 +424,6 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .container {
-    margin: 50px 50px 0 50px;
-  }
-
   h4 {
     font-size: 0.9em;
   }
@@ -467,7 +448,7 @@ footer a:hover {
     margin-bottom: 30px;
   }
 
-  .article {
+  article {
     gap: 25px;
   }
 
@@ -481,8 +462,7 @@ footer a:hover {
     padding: 5px 15px;
   }
 
-  .article-title-popular {
-    font-weight: bold;
+  h6 {
     font-size: 14px;
   }
 
@@ -559,6 +539,10 @@ footer a:hover {
     margin: 0 20px;
   }
 
+  .search-city {
+    width: 100%;
+  }
+
   input {
     width: 230px;
   }
@@ -569,8 +553,7 @@ footer a:hover {
 
   .btn-search {
     padding: 14px 15px 14px 15px;
-    margin-left: 250px;
-}
+  }
 
   .fa-magnifying-glass {
     visibility: visible;
@@ -626,7 +609,8 @@ footer a:hover {
     padding-bottom: 70px;
   }
 
-  .article, .cards-activities {
+  article,
+  .cards-activities {
     display: flex;
     flex-direction: column;
   }
